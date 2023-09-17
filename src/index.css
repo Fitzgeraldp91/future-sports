@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Style the tabs */
+.tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.tabs li {
+  margin-right: 10px;
+}
+
+/* Style the tab content */
+#tab1, #tab2, #tab3 {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0; /* Optional: Removes default padding */
+  margin: 0; /* Optional: Removes default margin */
+}
+
+/* Style your tabs here */
+ul li {
+  /* Add your tab styling here */
+  display: inline-block; /* Example: Tabs displayed horizontally */
+  padding: 10px 20px; /* Example: Padding for tabs */
+  background-color:#4d2d2d; /* Example: Background color for tabs */
+  border: 1px solid #ccc; /* Example: Border for tabs */
+  cursor: pointer; /* Example: Cursor style for tabs */
+}
+/* Show the active tab content */
+#tab1:target, #tab2:target, #tab3:target {
+  display: block;
+}
+/* Center the image horizontally */
+.image-container {
+  text-align: right;
+}
+
+/* Adjust the image position */
+.image-container img {
+  margin-right: 20px; /* You can adjust the margin as needed to move the image further to the right */
+}
+ 
