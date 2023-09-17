@@ -21,7 +21,11 @@ function App() {
             </a>
             <a className="navbar-item" href="./about">
               About
-            </a>
+              <main>
+        <p>Welcome to to Fitzy's Bodybuilding Consultancy Services website.  We are a websited dedicated to providing quality bodybuilding products, programs and sessions.</p>
+    </main>
+    </a>
+    
           </div>
         </div>
       </nav>
@@ -39,7 +43,7 @@ function App() {
             <img src="Arnold.jpg" alt="logo" width="200" height="100" />
             <img src="Programs.jpg" alt="logo" width="200" height="100" />
 
-            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=98dHK3DWxas" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZpwEHIL_UZ4" frameborder="0" allowfullscreen></iframe>
 
           </section>
       </div>   
