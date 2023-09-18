@@ -1,7 +1,7 @@
 {
-  "name": "homepage":"https://fitzgerald91.github.io/future-sports"
+  "homepage": "https://fitzgerald91.github.io/future-sports"
+  "name": "future-sports",
   "version": "0.1.0",
-
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
